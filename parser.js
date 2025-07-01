@@ -1,7 +1,6 @@
 const axios = require('axios');
 
 // 👉 Replace with your own Gemini API key
-const GEMINI_API_KEY = 'AIzaSyDfdyyRwBDSMcCA9NlA6XCqtFH4r3Sy92w'; // Use env vars in production
 
 module.exports = async function parseWithGemini(resumeText) {
   const prompt = `
